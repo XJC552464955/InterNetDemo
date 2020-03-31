@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get请求"
+        android:onClick="myclick"/>
+
+    <EditText
+        android:id="@+id/acount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="账号"/>
+
+    <EditText
+        android:id="@+id/passw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="密码"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="post请求"
+        android:onClick="myclick"/>
+
+
+
+</LinearLayout>
