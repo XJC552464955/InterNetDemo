@@ -64,6 +64,7 @@ public class GetImgActivity extends AppCompatActivity {
             conn.setConnectTimeout(6000);
 
             InputStream is = conn.getInputStream();
+            //获取数据流，并转为Drawble资源
             Drawable d= Drawable.createFromStream(is,"aa");
             return d;
         } catch (MalformedURLException e) {
