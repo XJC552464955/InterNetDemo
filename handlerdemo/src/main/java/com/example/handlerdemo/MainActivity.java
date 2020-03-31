@@ -100,6 +100,8 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn3:
                 startActivity(new Intent(MainActivity.this,TimerActivity.class));
+            case R.id.btn4:
+                startActivity(new Intent(MainActivity.this,GetImgActivity.class));
         }
     }
 
